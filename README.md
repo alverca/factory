@@ -1,4 +1,4 @@
-# TTTS Factory Library for Javascript
+# Smart Theater Accounting Factory
 
 [![npm (scoped)](https://img.shields.io/npm/v/@tokyotower/factory.svg)](https://www.npmjs.com/package/@tokyotower/factory)
 [![CircleCI](https://circleci.com/gh/tokyo-tower/factory.svg?style=shield)](https://circleci.com/gh/tokyo-tower/factory)
@@ -10,7 +10,3 @@
 ## Table of contents
 
 * [License](#license)
-
-## License
-
-ISC
