@@ -3,17 +3,17 @@ import setPrototypeOf = require('setprototypeof');
 import ErrorCode from '../errorCode';
 
 /**
- * TTTSドメインエラー
+ * SmartTheaterエラー
  */
-export class TTTSError extends Error {
+export class SmartTheaterError extends Error {
     public readonly reason: ErrorCode;
 
     constructor(code: ErrorCode, message?: string) {
         super(message);
 
-        this.name = 'TTTSError';
+        this.name = 'SmartTheaterError';
         this.reason = code;
 
-        setPrototypeOf(this, TTTSError.prototype);
+        setPrototypeOf(this, SmartTheaterError.prototype);
     }
 }

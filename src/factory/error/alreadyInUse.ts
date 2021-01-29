@@ -1,15 +1,15 @@
 // tslint:disable-next-line:no-require-imports
 import setPrototypeOf = require('setprototypeof');
 import ErrorCode from '../errorCode';
-import { TTTSError } from './ttts';
+import { SmartTheaterError } from './smarttheater';
 
 /**
  * AlreadyInUseError
  *
  * @class AlreadyInUseError
- * @extends {TTTSError}
+ * @extends {SmartTheaterError}
  */
-export default class AlreadyInUseError extends TTTSError {
+export default class AlreadyInUseError extends SmartTheaterError {
     public readonly entityName: string;
     public readonly fieldNames: string[];
 

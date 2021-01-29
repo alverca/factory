@@ -1,8 +1,6 @@
 /**
  * errors
- * @namespace errors
  */
-
 import AlreadyInUseError from './error/alreadyInUse';
 import ArgumentError from './error/argument';
 import ArgumentNullError from './error/argumentNull';
@@ -11,7 +9,7 @@ import NotFoundError from './error/notFound';
 import NotImplementedError from './error/notImplemented';
 import RateLimitExceededError from './error/rateLimitExceeded';
 import ServiceUnavailableError from './error/serviceUnavailable';
-import { TTTSError } from './error/ttts';
+import { SmartTheaterError } from './error/smarttheater';
 import UnauthorizedError from './error/unauthorized';
 
 export {
@@ -23,6 +21,6 @@ export {
     NotImplementedError as NotImplemented,
     RateLimitExceededError as RateLimitExceeded,
     ServiceUnavailableError as ServiceUnavailable,
-    TTTSError as TTTS,
+    SmartTheaterError as SmartTheater,
     UnauthorizedError as Unauthorized
 };
