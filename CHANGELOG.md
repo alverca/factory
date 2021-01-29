@@ -10,17 +10,23 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ### Changed
 
-- @smarttheater/accounting-factoryとして再リリース
-
 ### Deprecated
 
 ### Removed
 
-- パフォーマンスインターフェースを削除
-
 ### Fixed
 
 ### Security
+
+## v34.0.0 - 2021-01-29
+
+### Changed
+
+- @smarttheater/accounting-factoryとして再リリース
+
+### Removed
+
+- パフォーマンスインターフェースを削除
 
 ## v33.2.0 - 2021-01-20
 
