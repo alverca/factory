@@ -1,15 +1,15 @@
 // tslint:disable-next-line:no-require-imports
 import setPrototypeOf = require('setprototypeof');
 import ErrorCode from '../errorCode';
-import { TTTSError } from './ttts';
+import { SmartTheaterError } from './smarttheater';
 
 /**
  * NotFoundError
  *
  * @class NotFoundError
- * @extends {TTTSError}
+ * @extends {SmartTheaterError}
  */
-export default class NotFoundError extends TTTSError {
+export default class NotFoundError extends SmartTheaterError {
     public readonly entityName: string;
 
     constructor(entityName: string, message?: string) {

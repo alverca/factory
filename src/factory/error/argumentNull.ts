@@ -1,15 +1,15 @@
 // tslint:disable-next-line:no-require-imports
 import setPrototypeOf = require('setprototypeof');
 import ErrorCode from '../errorCode';
-import { TTTSError } from './ttts';
+import { SmartTheaterError } from './smarttheater';
 
 /**
  * ArgumentNullError
  *
  * @class ArgumentNullError
- * @extends {TTTSError}
+ * @extends {SmartTheaterError}
  */
-export default class ArgumentNullError extends TTTSError {
+export default class ArgumentNullError extends SmartTheaterError {
     public readonly argumentName: string;
 
     constructor(argumentName: string, message?: string) {

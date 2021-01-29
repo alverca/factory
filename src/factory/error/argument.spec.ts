@@ -15,7 +15,7 @@ describe('new ArgumentError()', () => {
         assert(error instanceof Error);
         assert.equal(error.argumentName, argumentName);
         assert.equal(error.message, message);
-        assert.equal(error.name, 'TTTSError');
+        assert.equal(error.name, 'SmartTheaterError');
         assert.equal(typeof error.stack, 'string');
     });
 
@@ -24,7 +24,7 @@ describe('new ArgumentError()', () => {
         const error = new ArgumentError(argumentName);
         assert(error instanceof Error);
         assert.equal(error.argumentName, argumentName);
-        assert.equal(error.name, 'TTTSError');
+        assert.equal(error.name, 'SmartTheaterError');
         assert.equal(typeof error.message, 'string');
         assert.equal(typeof error.stack, 'string');
     });

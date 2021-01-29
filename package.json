@@ -1,7 +1,7 @@
 {
-  "name": "@tokyotower/factory",
+  "name": "@smarttheater/accounting-factory",
   "version": "33.2.0",
-  "description": "TTTS Factory Library",
+  "description": "Smart Theater Accounting Factory",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "files": [
@@ -64,6 +64,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tokyo-tower/factory.git"
+    "url": "https://github.com/smarttheater/accounting-factory.git"
   }
 }

@@ -1,15 +1,15 @@
 // tslint:disable-next-line:no-require-imports
 import setPrototypeOf = require('setprototypeof');
 import ErrorCode from '../errorCode';
-import { TTTSError } from './ttts';
+import { SmartTheaterError } from './smarttheater';
 
 /**
  * ServiceUnavailableError
  *
  * @class ServiceUnavailableError
- * @extends {TTTSError}
+ * @extends {SmartTheaterError}
  */
-export default class ServiceUnavailableError extends TTTSError {
+export default class ServiceUnavailableError extends SmartTheaterError {
     constructor(message?: string) {
         if (message === undefined || message.length === 0) {
             // tslint:disable-next-line:no-parameter-reassignment
