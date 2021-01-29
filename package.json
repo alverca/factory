@@ -1,6 +1,6 @@
 {
   "name": "@smarttheater/accounting-factory",
-  "version": "33.2.0",
+  "version": "34.0.0",
   "description": "Smart Theater Accounting Factory",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
