@@ -5,9 +5,6 @@ import { SmartTheaterError } from './smarttheater';
 
 /**
  * ServiceUnavailableError
- *
- * @class ServiceUnavailableError
- * @extends {SmartTheaterError}
  */
 export default class ServiceUnavailableError extends SmartTheaterError {
     constructor(message?: string) {

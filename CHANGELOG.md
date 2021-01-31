@@ -18,6 +18,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ### Security
 
+## v34.0.1 - 2021-01-31
+
+### Changed
+
+- @alverca/factoryとして再リリース
+
 ## v34.0.0 - 2021-01-29
 
 ### Changed

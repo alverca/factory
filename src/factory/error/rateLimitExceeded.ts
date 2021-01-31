@@ -5,8 +5,6 @@ import { SmartTheaterError } from './smarttheater';
 
 /**
  * RateLimitExceededError
- * @class RateLimitExceededError
- * @extends {SmartTheaterError}
  */
 export default class RateLimitExceededError extends SmartTheaterError {
     constructor(message?: string) {

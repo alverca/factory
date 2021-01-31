@@ -5,9 +5,6 @@ import { SmartTheaterError } from './smarttheater';
 
 /**
  * ArgumentError
- *
- * @class ArgumentError
- * @extends {SmartTheaterError}
  */
 export default class ArgumentError extends SmartTheaterError {
     public readonly argumentName: string;

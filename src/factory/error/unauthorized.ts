@@ -5,9 +5,6 @@ import { SmartTheaterError } from './smarttheater';
 
 /**
  * UnauthorizedError
- *
- * @class UnauthorizedError
- * @extends {SmartTheaterError}
  */
 export default class UnauthorizedError extends SmartTheaterError {
     constructor(message?: string) {
