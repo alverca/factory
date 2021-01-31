@@ -10,8 +10,6 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ### Changed
 
-- @alverca/factoryとして再リリース
-
 ### Deprecated
 
 ### Removed
@@ -19,6 +17,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 ### Fixed
 
 ### Security
+
+## v34.0.1 - 2021-01-31
+
+### Changed
+
+- @alverca/factoryとして再リリース
 
 ## v34.0.0 - 2021-01-29
 
