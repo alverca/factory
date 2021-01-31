@@ -5,9 +5,6 @@ import { SmartTheaterError } from './smarttheater';
 
 /**
  * AlreadyInUseError
- *
- * @class AlreadyInUseError
- * @extends {SmartTheaterError}
  */
 export default class AlreadyInUseError extends SmartTheaterError {
     public readonly entityName: string;

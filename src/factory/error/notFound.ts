@@ -5,9 +5,6 @@ import { SmartTheaterError } from './smarttheater';
 
 /**
  * NotFoundError
- *
- * @class NotFoundError
- * @extends {SmartTheaterError}
  */
 export default class NotFoundError extends SmartTheaterError {
     public readonly entityName: string;

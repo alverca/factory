@@ -5,9 +5,6 @@ import { SmartTheaterError } from './smarttheater';
 
 /**
  * ForbiddenError
- *
- * @class ForbiddenError
- * @extends {SmartTheaterError}
  */
 export default class ForbiddenError extends SmartTheaterError {
     constructor(message?: string) {
